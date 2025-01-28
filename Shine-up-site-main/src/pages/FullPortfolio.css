@@ -1,0 +1,63 @@
+.mt-20{
+    padding-left: 75px !important;
+    padding-right: 75px ;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    max-width: 25vw; /* Set to 60% of the viewport width */
+    max-height: 25vh; /* Set to 60% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Adjusted modal image size */
+.modal-image {
+    max-width: 100%; /* Ensures image fits within modal content */
+    max-height: 100%; /* Keeps image within 60% of viewport */
+    border-radius: 8px;
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: -250px;
+    right: -80px;
+    background: none;
+    border: none;
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Portfolio Card Title Styles */
+h3 {
+    padding: 10px; /* Add padding for spacing */
+}
+
+/* Title link styles */
+h3 a {
+    color: #FF6600; /* Bright orange color for the link */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+h3 a:hover {
+    color: #FF4500; /* Darker orange on hover */
+}

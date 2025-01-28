@@ -1,0 +1,109 @@
+/* Footer base styling */
+.footer {
+    background-color: #121212;
+    display: flex;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    min-height: 10px;
+}
+
+/* Copyright bar styling */
+.copyright-bar {
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Position it at the bottom of the screen */
+    background-color: #121212;
+    text-align: center; /* Center the text */
+    padding: 1rem 0; /* Add padding for a nice appearance */
+}
+
+
+.footer a {
+    color: white; /* Set link color to white */
+    transition: background-color 0.2s; /* Smooth transition for hover effects */
+}
+
+.footer a:hover {
+    background-color:none; /* Hover color for links */
+}
+
+.footer .input-field {
+    background-color: #1a1a1a; /* Input background color */
+    border: 1px solid #4B5563; /* Border color */
+    color: white; /* Input text color */
+}
+
+.footer .input-field::placeholder {
+    color: #171717; /* Placeholder color */
+}
+
+.footer .subscribe-button {
+    background: linear-gradient(to right, #FF8C00, #FF4500); /* Gradient button background */
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; /* Button padding */
+    border-radius: 0.375rem; /* Rounded corners */
+}
+
+.footer .subscribe-button:hover {
+    opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Additional styles to ensure layout and spacing */
+.footer .subscribe-form {
+    display: flex;
+    gap: 1rem; /* Space between input and button */
+}
+
+/* Footer.css */
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity */
+}
+
+.input-field {
+    color: white; /* Text color */
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer.css */
+
+/* Reset hover effects for social media icons */
+.footer ul li a {
+    transition: none; /* Remove any transition effect */
+}
+
+.footer ul li a:hover {
+    background: none; /* No background on hover */
+    color: inherit; /* Retain the current color */
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #f97316, #c2410c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.footer-icon:hover,
+.phone-mail:hover {
+    background: linear-gradient(to right, #f97316, #c2410c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Default styles */
+.footer-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.phone-mail {
+    color: white;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}

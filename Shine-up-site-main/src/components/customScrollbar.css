@@ -1,0 +1,30 @@
+
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    background: #171717; /* Background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bf5102; /* Color of the scrollbar thumb */
+    border-radius: 20px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff6a00; /* Color of the scrollbar thumb on hover */
+}
+
+::-webkit-scrollbar-track {
+    background: #1f1f1f; /* Background color of the scrollbar track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+* {
+    scrollbar-width: thin; /* 'auto' or 'thin' */
+    scrollbar-color: #bf5102 #171717; /* thumb color and track color */
+}
+
+
+.custom-scroll {
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 400px; /* Set a height for the scrollable area */
+}
